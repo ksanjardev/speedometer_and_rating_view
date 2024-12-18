@@ -21,4 +21,4 @@ Feel free to submit issues and enhancement requests !
 
 <img src="https://github.com/ksanjardev/speedometer_and_rating_view/blob/master/Screen_recording_20241218_163540.gif" height="500"/>
 
-# To use speedometer and rating views you can clone the project to your Android studio
+ To use speedometer and rating views you can clone the project to your Android studio
