@@ -1,5 +1,6 @@
 package com.example.customviewtask
 
+import android.animation.Animator
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -131,13 +132,17 @@ class FirstScreen : Fragment(R.layout.screen_first) {
                 currentSpeed = animation.animatedValue as Float
                 speedometer.speed = currentSpeed
             }
-            animator.start()
-
             // Continue the animation if the button is still pressed
-            speedChangeHandler.postDelayed(
-                { increaseSpeedAnimation(speedometer) },
-                50 // 100 ms interval for continuous increase
-            )
+            animator.addListener(object : Animator.AnimatorListener {
+                override fun onAnimationStart(animation: Animator) {}
+                override fun onAnimationEnd(animation: Animator) {
+                    increaseSpeedAnimation(speedometer)
+                }
+                override fun onAnimationCancel(animation: Animator) {}
+                override fun onAnimationRepeat(animation: Animator) {}
+
+            })
+            animator.start()
         }
     }
 

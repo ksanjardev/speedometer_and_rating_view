@@ -123,3 +123,5 @@ class RatingView @JvmOverloads constructor(
         return super.onTouchEvent(event)
     }
 }
+
+
