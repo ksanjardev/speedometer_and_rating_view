@@ -24,7 +24,6 @@ class SpeedometerView @JvmOverloads constructor(
     private val textPaint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val textSpeedPaint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val tickPaint = Paint(Paint.ANTI_ALIAS_FLAG)
-    private val needlePath = Path()
     var speed: Float = 0f
         set(value) {
             value.coerceIn(0f, 300f)
