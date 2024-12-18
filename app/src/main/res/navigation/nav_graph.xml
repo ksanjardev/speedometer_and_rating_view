@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstScreen">
+
+    <fragment
+        android:id="@+id/firstScreen"
+        android:name="com.example.customviewtask.FirstScreen"
+        android:label="screen_first"
+        tools:layout="@layout/screen_first" />
+</navigation>
