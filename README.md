@@ -19,4 +19,4 @@ Feel free to submit issues and enhancement requests !
 
 ```
 
-<img src="https://github.com/ksanjardev/speedometer_and_rating_view/raw/refs/heads/master/Screen_recording_20241218_163540.mp4" height="500"/>
+<img src="https://github.com/ksanjardev/speedometer_and_rating_view/blob/master/Screen_recording_20241218_163540.gif" height="500"/>
