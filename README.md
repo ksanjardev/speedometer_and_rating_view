@@ -9,7 +9,7 @@ Don't forget to star the project if you like it!
  
 Feel free to submit issues and enhancement requests !
 
-# Rating View
+# Rating View in XML
 ```Kotlin
     <com.example.customviewtask.custom_view.rating.RatingView
         android:layout_width="match_parent"
